@@ -7,7 +7,7 @@ public class ErrorCode {
 
     private final Integer code;
 
-    private final String msg;
+    private  String msg;
 
     public ErrorCode(Integer code, String msg) {
         this.code = code;
