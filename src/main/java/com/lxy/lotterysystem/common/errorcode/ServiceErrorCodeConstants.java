@@ -20,6 +20,18 @@ public interface ServiceErrorCodeConstants {
     ErrorCode PHONE_NUMBER_USED = new ErrorCode(107,"手机号被使用");
 
 
+    ErrorCode LOGIN_INFO_NOT_EXIT = new ErrorCode(108,"登录信息不存在");
+
+    ErrorCode LOGIN_NOT_EXIT = new ErrorCode(109,"登录方式不存在");
+
+    ErrorCode USER_INFO_IS_EMPTY = new ErrorCode(110,"用户信息不存在");
+
+    ErrorCode VERIFICATION_CODE_ERROR = new ErrorCode(111,"验证码校验失败");
+
+
+
+
+
 
 
 
@@ -30,5 +42,11 @@ public interface ServiceErrorCodeConstants {
 
 
     //抽奖模块错误码
+
+
+    //图片模块错误码
+    ErrorCode PIC_UPLOAD_ERROR = new ErrorCode(500,"图片上传失败");
+
+
 
 }
