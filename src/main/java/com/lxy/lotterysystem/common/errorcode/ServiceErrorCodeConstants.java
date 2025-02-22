@@ -40,13 +40,22 @@ public interface ServiceErrorCodeConstants {
     ErrorCode ACTIVITY_USER_ERROR = new ErrorCode(301,"创建的活动关联人员异常!");
     ErrorCode ACTIVITY_PRIZE_ERROR = new ErrorCode(302,"创建的活动关联奖品异常!");
     ErrorCode USER_PRIZE_AMOUNT_ERROR = new ErrorCode(303,"创建的活动关联奖品及人员数量异常!");
+    ErrorCode ACTIVITY_PRIZE_TIERS_ERROR = new ErrorCode(304,"创建的活动关联奖品等级设置错误!");
 
+    ErrorCode ACTIVITY_STATUS_CONVERT_ERROR = new ErrorCode(305,"活动先关状态转换失败!");
+    ErrorCode CHCHE_ACTIVITY_ID_IS_EMPTY = new ErrorCode(306,"缓存活动的活动id为空!");
+    ErrorCode CHCHE_ACTIVITY_ID_ERROR = new ErrorCode(307,"要缓存的活动id有误!");
 
     //奖品模块错误码
 
 
     //抽奖模块错误码
+    ErrorCode ACTIVITY_OR_PRIZE_IS_EMPTY = new ErrorCode(400,"活动或关联奖品不存在!");
 
+    ErrorCode ACTIVITY_COMPLETED = new ErrorCode(401,"抽奖活动已完成无法抽奖!");
+
+    ErrorCode ACTIVITY_PRIZE_COMPLETED = new ErrorCode(402,"当前奖品已被抽取无法抽奖!");
+    ErrorCode WINNER_PRIZE_AMOUNT_ERROR = new ErrorCode(403,"中奖人数与奖品数量不一致,无法抽奖!");
 
     //图片模块错误码
     ErrorCode PIC_UPLOAD_ERROR = new ErrorCode(500,"图片上传失败");
