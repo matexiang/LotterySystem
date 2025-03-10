@@ -35,7 +35,7 @@ public class DrawPrizeParam {
         private Long userId;
 
         @NotBlank(message = "中奖者姓名不能为空")
-        private String username;
+        private String userName;
 
 
     }
