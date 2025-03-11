@@ -125,7 +125,7 @@ public class ActivityController {
 
                             activityInfo.setActivityId(activityDTO.getActivityId());
                             activityInfo.setActivityName(activityDTO.getActivityName());
-                            activityInfo.setDescription(activityInfo.getDescription());
+                            activityInfo.setDescription(activityDTO.getDescription());
                             activityInfo.setValid(activityDTO.valid());
 
                             return activityInfo;
